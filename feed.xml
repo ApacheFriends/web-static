@@ -5,45 +5,10 @@
   <id>https://www.apachefriends.org/blog.html</id>
   <link href="https://www.apachefriends.org/blog.html"/>
   <link href="https://www.apachefriends.org/feed.xml" rel="self"/>
-  <updated>2022-05-27T00:00:00Z</updated>
+  <updated>2022-05-16T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
-  <entry>
-    <title>Ownership of Apache Friends Project XAMPP Shifts to Community</title>
-    <link rel="alternate" href="https://www.apachefriends.org/blog/ownership_20220527.html"/>
-    <id>https://www.apachefriends.org/blog/ownership_20220527.html</id>
-    <published>2022-05-27T00:00:00Z</published>
-    <updated>2022-05-30T07:59:17+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Hi Apache Friends!&lt;/p&gt;
-
-&lt;p&gt;It has been more than &lt;a href="https://www.apachefriends.org/blog/news-article-203924.html"&gt;10 years&lt;/a&gt; since Bitnami and Apache Friends joined forces to maintain and improve XAMPP installers. Since then, the Bitnami team has been accountable for activities such as: &lt;/p&gt;
-
-&lt;p&gt;Updating XAMPP installers to the latest component versions available
-Adding Linux and Windows 64bit support 
-Creating XAMPP add-ons to simplify the installation of applications
-Improving the apachefriends.org website&lt;/p&gt;
-
-&lt;p&gt;The Bitnami team is proud of all the work done and is grateful to have helped grow and improve the project. At this time, we would like to announce that we are shifting ownership of the XAMPP project to the community. &lt;/p&gt;
-
-&lt;h3 id="so-whats-new"&gt;So What’s New?&lt;/h3&gt;
-
-&lt;p&gt;Bitnami, &lt;a href="https://blogs.vmware.com/cloud/2019/05/15/vmware-to-acquire-bitnami/"&gt;acquired by VMware&lt;/a&gt; in 2019 and now known as Bitnami by VMware, has decided to donate the project to the main contributors from the Apache Friends community, so they can continue with the work of keeping the project updated and healthy. &lt;/p&gt;
-
-&lt;p&gt;The Bitnami by VMware team is led by &lt;a href="https://www.apachefriends.org/about.html"&gt;Beltran Rueda&lt;/a&gt;, one of the main collaborators of the XAMPP project during these years, who is working with the rest of the members of the project on moving all the code from the current XAMPP site to the &lt;a href="https://github.com/apachefriends"&gt;GitHub Apache Friends&lt;/a&gt; project.&lt;/p&gt;
-
-&lt;p&gt;Even after the transition to the community, you can continue to find XAMPP installers releases, documentation, and community forums on Apachefriends.org. &lt;/p&gt;
-
-&lt;h3 id="support-and-resources"&gt;Support and Resources&lt;/h3&gt;
-
-&lt;p&gt;If you have suggestions on things that you would like improved, or if you would like to contribute to the Apache Friends XAMPP installers and documentation, please check the &lt;a href="https://github.com/apachefriends"&gt;GitHub Apache Friends&lt;/a&gt; project. Pull requests are welcome, and our team will be happy to help you there! &lt;/p&gt;
-
-&lt;p&gt;In addition, you can contact Beltran Rueda via email at beltran (at) apachefriends (dot) org.&lt;/p&gt;
-</content>
-  </entry>
   <entry>
     <title>New XAMPP release 7.4.29 , 8.0.19 , 8.1.6</title>
     <link rel="alternate" href="https://www.apachefriends.org/blog/new_xampp_20220516.html"/>
