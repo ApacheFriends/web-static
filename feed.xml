@@ -5,10 +5,43 @@
   <id>https://www.apachefriends.org/blog.html</id>
   <link href="https://www.apachefriends.org/blog.html"/>
   <link href="https://www.apachefriends.org/feed.xml" rel="self"/>
-  <updated>2022-05-16T00:00:00Z</updated>
+  <updated>2022-06-10T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Apache Friends Project Moves to GitHub</title>
+    <link rel="alternate" href="https://www.apachefriends.org/blog/moves_to_github_20220610.html"/>
+    <id>https://www.apachefriends.org/blog/moves_to_github_20220610.html</id>
+    <published>2022-06-10T00:00:00Z</published>
+    <updated>2022-06-15T16:46:33+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi Apache Friends!&lt;/p&gt;
+
+&lt;p&gt;It has been more than &lt;a href="https://www.apachefriends.org/blog/news-article-203924.html"&gt;10 years&lt;/a&gt; since Bitnami and Apache Friends joined forces to maintain and improve XAMPP installers. Since then, the Bitnami team has been carrying out activities such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Updating XAMPP installers to the latest component versions available&lt;/li&gt;
+  &lt;li&gt;Adding Linux and Windows 64bit support &lt;/li&gt;
+  &lt;li&gt;Creating XAMPP add-ons to simplify the installation of applications&lt;/li&gt;
+  &lt;li&gt;Improving the apachefriends.org website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Bitnami team is proud of the work done so far, and is grateful to have helped grow and improve the project.&lt;/p&gt;
+
+&lt;p&gt;We are happy to announce that ownership of ApacheFriends will go back to the community.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.apachefriends.org/about.html"&gt;Beltran Rueda&lt;/a&gt;, one of the main collaborators of the XAMPP project during these years, will be leading the project now. Nothing will change and you can continue to find XAMPP installers releases, documentation, and community forums on &lt;a href="https://www.apachefriends.org"&gt;apachefriends.org&lt;/a&gt; normally. There will be regular updates and releases as always and if anything, the project will become more open. Beltran has been working with the rest of the members of the project on moving all the code and resources to the &lt;a href="https://github.com/ApacheFriends"&gt;GitHub Apache Friends&lt;/a&gt; project and making it easier than ever to contribute.&lt;/p&gt;
+
+&lt;p&gt;We are excited to continue the work on XAMPP and are looking forward to the community feedback. If you have suggestions on things that you would like improved, or if you would like to contribute to the Apache Friends XAMPP installers and documentation, please check the &lt;a href="https://github.com/ApacheFriends"&gt;GitHub Apache Friends&lt;/a&gt; project. Pull requests are welcome, and the Apache Friends team will be happy to help you there! &lt;/p&gt;
+
+&lt;p&gt;We would like to hear your feedback to plan the next major features and improvements for the project. Please &lt;a href="https://forms.gle/pYHwajDY1mLB98FV8"&gt;fill this anonymous form&lt;/a&gt; to help us!&lt;/p&gt;
+
+&lt;p&gt;In addition, you can post any questions or suggestions into the &lt;a href="https://community.apachefriends.org/f/"&gt;Apache Friends forums&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>New XAMPP release 7.4.29 , 8.0.19 , 8.1.6</title>
     <link rel="alternate" href="https://www.apachefriends.org/blog/new_xampp_20220516.html"/>
