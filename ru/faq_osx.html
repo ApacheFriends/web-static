@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>XAMPP FAQs for Mac OS X</title>
+    <title>ЧаВО XAMPP для Mac OS X</title>
 
     <meta name="description" content="Instructions on how to install XAMPP for OSX distributions." />
     
@@ -148,15 +148,15 @@
     <div class="large-12 columns">
     <dl class="accordion">
     
-      <dt>What is the difference between XAMPP for OS X and XAMPP-VM?</dt>
+      <dt>В чём разница между XAMPP для OS X и XAMPP-VM?</dt>
       <dd>
         <p>
         <ul>
-          <li>XAMPP for OS X is a native installer for OS X. It installs Apache, PHP and other XAMPP components directly on your OS X system, in the /Applications/XAMPP folder.</li>
-          <li>XAMPP-VM is a virtual machine for OS X. It includes Apache, PHP and other XAMPP components and runs them in a Linux-based virtual machine on your OS X system.</li>
+          <li>XAMPP для OS X - это установщик в виде поддерживаемого по умолчанию исполняемого файла для OS X. Он устанавливает Apache, PHP и другие компоненты XAMPP прямо на вашу систему OS X, в папку /Applications/XAMPP.</li>
+          <li>XAMPP-VM - зто виртуальная машина для OS X. Она включает в себя Apache, PHP и другие компоненты XAMPP и запускает их в виртуальной машине основанной на Linux на вашей системе OS X.</li>
         </ul>
         </p>
-        <p>For more information, refer to the blog post at <a href="https://www.apachefriends.org/blog/new_xampp_20170628.html">https://www.apachefriends.org/blog/new_xampp_20170628.html</a>.</p>.
+        <p>Для большей информации, обратитесь к сообщению в блоге по адресу <a href="https://www.apachefriends.org/blog/new_xampp_20170628.html">https://www.apachefriends.org/blog/new_xampp_20170628.html</a>.</p>.
       </dd> 
     
       <dt>Как мне установить XAMPP на Mac OS X?</dt>
@@ -167,11 +167,11 @@
         <li>Дважды кликните по картинке чтобы запустить процесс установки.</li></ul>
       <p>Вот и всё. Теперь XAMPP установлен под каталогом /Applications/XAMPP.</p>
       </dd>
-      <dt>Does XAMPP include MySQL or MariaDB?</dt>
+      <dt>XAMPP включает в себя MySQL или MariaDB?</dt>
       <dd>
-        <p>Since XAMPP 5.5.30 and 5.6.14, XAMPP ships MariaDB instead of MySQL. The commands and tools are the same for both.</p>
+        <p>С момента выхода XAMPP 5.5.30 и 5.6.14, XAMPP предоставляет MariaDB вместо MySQL. Команды и инструменты для обоих те же самые.</p>
       </dd>
-      <dt>Как я мне запустить XAMPP?</dt>
+      <dt>Как мне запустить XAMPP?</dt>
       <dd>
       <p>Чтобы запустить XAMPP просто откройте XAMPP Control и запустите Apache, MySQL и ProFTPD. Имя для XAMPP Control "manager-osx".</p>      
       </dd>
@@ -179,12 +179,12 @@
       <dd>
       <p>Чтобы остановить XAMPP просто откройте XAMPP Control и остановите сервера. Имя для XAMPP Control "manager-osx".</p>      
       </dd>
-      <dt>Как я мне проверить что всё сработало?</dt>
+      <dt>Как мне проверить, что всё сработало?</dt>
       <dd>
       <p>Введите следующую URL в веб браузер:</p>
       <p><code>http://localhost</code></p>
 
-      <p>You should see the XAMPP start page, as shown below.</p>
+      <p>Вы должны увидеть главную страницу XAMPP, как показано снизу.</p>
         <img src="/images/screenshots/xampp-macosx-start-b70c2269.jpg" />    
       </dd>
       <dt>Готов ли XAMPP к производственному использованию?</dt>
@@ -210,7 +210,7 @@
         <p>В основном это по тем же причинам что и выше указанная ошибка. Скрипт запуска LAMPP нащёл процесс уже запущенный на вашей системе. Чтобы запустить LAMPP правильно, сначала вам нужно остановить этот процесс.</p>
       </dd>
 
-      <dt>Apache doesn't seem to start. What can I do?</dt>
+      <dt>Apache, похоже, не запускается. Что мне делать?</dt>
       <dd>
         <p>Эта ошибка может иметь место по нескольким причинам. Apache показывает эту ощибку при разных условиях. Чтобы найти конкретную причину нам нужно будет немного поисследовать:</p>
         <p><code>tail -2 /Applications/XAMPP/logs/error_log</code></p>
@@ -269,14 +269,14 @@ LAMPP: Starting Apache with SSL...</code></p>
         <p>Теперь расширение должо быть активировано.</p>
       </dd>
 
-      <dt>How do I enable access to phpMyAdmin from the outside?</dt>
+      <dt>Как мне включить доступ к phpMyAdmin извне?</dt>
       <dd>
-        <p>In the basic configuration of XAMPP, phpMyAdmin is accessible only from the same host that XAMPP is running on, at http://127.0.0.1 or http://localhost.</p>
-        <p>IMPORTANT: Enabling external access for phpMyAdmin in production environments is a significant security risk. You are strongly advised to only allow access from localhost. A remote attacker could take advantage of any existing vulnerability for executing code or for modifying your data.</p>
-        <p>To enable remote access to phpMyAdmin, follow these steps:</p>
+        <p>В базовой конфигурации XAMPP phpMyAdmin доступен только с того же хоста, на котором запущен XAMPP, по адресу <a href="http://127.0.0.1">http://127.0.0.1</a> или <a href="http://localhost">http://localhost</a>.</p>
+        <p>ВАЖНО: Включение внешнего доступа для phpMyAdmin в производственных средах представляет собой значительный риск для безопасности. Вам настоятельно рекомендуется разрешать доступ только с localhost. Удаленный злоумышленник может воспользоваться любой существующей уязвимостью для выполнения кода или изменения ваших данных.</p>
+        <p>Чтобы включить удалённый доступ к phpMyAdmin, следуйте шагам ниже:</p>
         <ul>
-          <li>Edit the xamppfiles/etc/extra/httpd-xampp.conf file in your XAMPP installation directory.</li>
-          <li>Within this file, find the lines below. 
+          <li>Измените файл xamppfiles/etc/extra/httpd-xampp.conf в папке с установкой XAMPP.</li>
+          <li>В этом файле, найдите строки, указанные снизу. 
             <p><code>
                 Alias /phpmyadmin "/Applications/XAMPP/xamppfiles/phpmyadmin"
                 &lt;Directory "/Applications/XAMPP/xamppfiles/phpmyadmin"&gt;
@@ -284,37 +284,37 @@ LAMPP: Starting Apache with SSL...</code></p>
                   Require local
             </code></p>
           </li>
-          <li>Then replace 'Require local' with 'Require all granted'.</li>
+          <li>Затем, замените 'Require local' на 'Require all granted'.</li>
             <p><code>
                 Alias /phpmyadmin "/Applications/XAMPP/xamppfiles/phpmyadmin"
                 &lt;Directory "/Applications/XAMPP/xamppfiles/phpmyadmin"&gt;
                   AllowOverride AuthConfig
                   Require all granted
             </code></p>
-          <li>Restart the Apache server using the XAMPP control panel.</li>
+          <li>Перезапустите сервер Apache, используя панель управления XAMPP.</li>
         </ul>
       </dd>
 
-      <dt>Where are the main XAMPP configuration files?</dt>
+      <dt>Где находятся основные файлы конфигурации XAMPP?</dt>
       <dd>
-        <p>The main XAMPP configuration files are located as follows:</p>
+        <p>Основные файлы конфигурации XAMPP находятся в следующем порядке:</p>
         <ul>
-          <li>Apache configuration file: /Applications/XAMPP/xamppfiles/etc/httpd.conf, /Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf</li>
-          <li>PHP configuration file: /Applications/XAMPP/xamppfiles/etc/php.ini</li>
-          <li>MySQL configuration file: /Applications/XAMPP/xamppfiles/etc/my.cnf</li>
-          <li>ProFTPD configuration file: /Applications/XAMPP/xamppfiles/etc/proftpd.conf</li>
+          <li>Файл конфигурации Apache: /Applications/XAMPP/xamppfiles/etc/httpd.conf, /Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf</li>
+          <li>Файл конфигурации PHP: /Applications/XAMPP/xamppfiles/etc/php.ini</li>
+          <li>Файл конфигурации MySQL: /Applications/XAMPP/xamppfiles/etc/my.cnf</li>
+          <li>Файл конфигурации ProFTPD: /Applications/XAMPP/xamppfiles/etc/proftpd.conf</li>
         </ul>
       </dd>
 
-      <dt>How do I send email with XAMPP?</dt>
+      <dt>Как мне отправлять сообщения по электронной почте с помощью XAMPP?</dt>
       <dd>
-        <p>To send email with XAMPP, use the PEAR Mail and Net_SMTP packages, which allow you to send email using an external SMTP account (such as a Gmail account). Follow these steps:</p>
+        <p>Чтобы отправлять сообщения по электронной почте с помощью XAMPP, используйте пакеты PEAR Mail и Net_SMTP, которые позволяют отправлять вам сообщения по эл. почте используя сторонний аккаунт SMTP (такой, как в Gmail, к примеру). Выполните следующие действия:</p>
         <ul>
-          <li>Install the Mail and Net_SMTP PEAR modules:
+          <li>Установите компоненты (модули) Mail and Net_SMTP PEAR:
           <code>
           pear install Net_SMTP Mail
           </code>
-          Note that if these packages are already installed in your system you see the messages below when executing that command:
+          Обратите внимание, что если эти пакеты уже установлены в вашей системе, вы увидите приведенные ниже сообщения при выполнении этой команды:
           <code>
           Ignoring installed package pear/Net_SMTP
           Ignoring installed package pear/Mail
@@ -322,7 +322,7 @@ LAMPP: Starting Apache with SSL...</code></p>
           </code>
           </li>
           <li>
-          Create the following example script in your "htdocs" directory to send an email:
+          Создайте следующий пример скрипта в вашем каталоге "htdocs" для отправки электронного письма:
           <code>
           &lt;?php
           require_once "Mail.php";
@@ -351,14 +351,14 @@ LAMPP: Starting Apache with SSL...</code></p>
           if (PEAR::isError($mail)) {
             echo($mail->getMessage());
           } else {
-            echo("Message successfully sent!\n");
+            echo("Успешная отправка сообщения!\n");
           }
           ?>
           </code>
-          <p>Remember to replace the dummy values shown with your actual Gmail address and account password. If you don't plan to use Gmail's SMTP server, replace the SMTP host details with appropriate values for your organization or ISP's SMTP server.</p>
+          <p>Не забудьте заменить указанные фиктивные значения вашим фактическим адресом электронной почты и паролем учетной записи. Если вы не планируете использовать SMTP-сервер Gmail, замените сведения о хосте SMTP соответствующими значениями для SMTP-сервера вашей организации или интернет-провайдера.</p>
           </li>
           <li>
-          Execute the script by browsing to it using your Web browser. You should see a notification that the message was successfully sent, and the message should be delivered to the recipient email address.
+          Выполните скрипт с помощью запуска его в вашем любимом веб-браузере. Вы должны увидеть уведомление, что сообщение было успешно отправлено, и сообщение должно быть отправлено на адрес эл. почты получителя.
           </li>
         </ul>
       </dd>
