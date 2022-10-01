@@ -202,7 +202,7 @@
       <p>Yes. When you start the XAMPP-VM virtual machine, XAMPP services will also automatically start. You can navigate to the "Services" tab of the stack manager at any time to stop, start, restart or check the status of individual services.</p>
       </dd>
 
-      <dt>Как я мне проверить что всё сработало?</dt>
+      <dt>Как мне проверить, что всё сработало?</dt>
       <dd>
       <p>Verify that you have enabled port forwarding (from port 80 of the stack to port 8080 of the host system) in the "Network" tab of the stack manager and type the following URL in a web browser:</p>
       <p><code>http://localhost:8080</code></p>
@@ -239,6 +239,13 @@
             <p><code>tail -2 /opt/lampp/logs/error_log</code></p>
           </li>
         </ul>
+        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницы нашего сообщества</a> для помощи.</p>
+      </dd>
+
+      <dt>translation missing: ru.When I try to start the VM, it fails, with an error message, "cannot calculate MAC address". How do I resolve this?</dt>
+      <dd>
+        <p>This is most often a symptom of the VM running on a computer with an Apple M1 (arm64) CPU. The VM components do not support the M1 CPU (as of September 2022). You can only use the VM on computers with intel (x64) CPUs. On computers with the M1 CPU, please use the XAMPP native installers instead.
+        </p>
         <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницы нашего сообщества</a> для помощи.</p>
       </dd>
 
@@ -356,14 +363,14 @@ LAMPP: Starting Apache with SSL...</code></p>
       </p>
 
 
-      <dt>How do I enable access to phpMyAdmin from the outside?</dt>
+      <dt>Как мне включить доступ к phpMyAdmin извне?</dt>
       <dd>
       <p>In the basic configuration of XAMPP-VM, phpMyAdmin is accessible only from the host system via a secure tunnel, at http://127.0.0.1:8080/phpmyadmin or http://localhost:8080/phpmyadmin.</p>
-      <p>IMPORTANT: Enabling external access for phpMyAdmin in production environments is a significant security risk. You are strongly advised to only allow access from localhost. A remote attacker could take advantage of any existing vulnerability for executing code or for modifying your data.</p>
-      To enable remote access to phpMyAdmin, follow these steps:
+      <p>ВАЖНО: Включение внешнего доступа для phpMyAdmin в производственных средах представляет собой значительный риск для безопасности. Вам настоятельно рекомендуется разрешать доступ только с localhost. Удаленный злоумышленник может воспользоваться любой существующей уязвимостью для выполнения кода или изменения ваших данных.</p>
+      Чтобы включить удалённый доступ к phpMyAdmin, следуйте шагам ниже:
       <ul>
         <li>Edit the /opt/lampp/etc/extra/httpd-xampp.conf file.</li>
-        <li>Within this file, find the lines below.
+        <li>В этом файле, найдите строки, указанные снизу.
           <p><code>
               Alias /phpmyadmin "/opt/lampp/phpmyadmin/"
               &lt;Directory "/opt/lampp/phpmyadmin"&gt;
@@ -371,7 +378,7 @@ LAMPP: Starting Apache with SSL...</code></p>
                 Require local
           </code></p>
         </li>
-        <li>Then replace 'Require local' with 'Require all granted'.</li>
+        <li>Затем, замените 'Require local' на 'Require all granted'.</li>
           <p><code>
               Alias /phpmyadmin "/opt/lampp/phpmyadmin/"
               &lt;Directory "/opt/lampp/phpMyAdmin"&gt;
@@ -380,6 +387,14 @@ LAMPP: Starting Apache with SSL...</code></p>
           </code></p>
         <li>Save the file and restart the Apache service using the stack manager.</li>
       </ul>
+      </dd>
+
+      <dt>Does XAMPP-VM support Apple M1 (arm64) CPUs?</dt>
+      <dd>
+        <p>No. The components within the VM do not presently support Apple M1 (arm64) CPUs. The VM may only be used on Apple computers with intel (x64) CPUs.
+        </p>
+        <p>This is the situation as of September 2022. We hope that the VM components will support Apple M1 CPUs in the future, so that XAMPP VMs will be usable on those Apple computers as well.
+        </p>
       </dd>
 
       <dt>How do I install XAMPP-VM add-ons?</dt>
@@ -418,7 +433,7 @@ LAMPP: Starting Apache with SSL...</code></p>
       <dd>
         <p>The main XAMPP configuration files are located as follows:</p>
         <ul>
-          <li>Apache configuration file: /opt/lampp/etc/httpd.conf, /opt/lampp/etc/extra/httpd-xampp.conf</li>
+          <li>Файлы конфигурации Apache: /opt/lampp/etc/httpd.conf, /opt/lampp/etc/extra/httpd-xampp.conf</li>
           <li>PHP configuration file: /opt/lampp/etc/php.ini</li>
           <li>MySQL configuration file: /opt/lampp/etc/my.cnf</li>
           <li>ProFTPD configuration file: /opt/lampp/etc/proftpd.conf</li>

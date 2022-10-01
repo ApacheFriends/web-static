@@ -5,16 +5,42 @@
   <id>https://www.apachefriends.org/blog.html</id>
   <link href="https://www.apachefriends.org/blog.html"/>
   <link href="https://www.apachefriends.org/feed.xml" rel="self"/>
-  <updated>2022-06-10T00:00:00Z</updated>
+  <updated>2022-10-01T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>New XAMPP release 7.4.30 , 8.0.23 , 8.1.10</title>
+    <link rel="alternate" href="https://www.apachefriends.org/blog/new_xampp_20221001.html"/>
+    <id>https://www.apachefriends.org/blog/new_xampp_20221001.html</id>
+    <published>2022-10-01T00:00:00Z</published>
+    <updated>2022-10-01T08:58:36+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi Apache Friends!&lt;/p&gt;
+
+&lt;p&gt;We just released a new version of XAMPP for Windows and Linux. You can download these new installers at &lt;a href="/download.html"&gt;http://www.apachefriends.org/download.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These installers include the next components:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7.4.30-1 / 8.0.23-0 / 8.1.10-0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PHP 7.4.30 , 8.0.23 , 8.1.10&lt;/li&gt;
+  &lt;li&gt;Apache 2.4.54&lt;/li&gt;
+  &lt;li&gt;OpenSSL 1.1.1p (Windows) and OpenSSL 1.1.1q (Linux)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can also contribute to the project. All the code and resources are available at the &lt;a href="https://github.com/ApacheFriends"&gt;GitHub Apache Friends&lt;/a&gt; project. We also would like to hear your feedback to plan the next major features and improvements for the project. Please &lt;a href="https://forms.gle/pYHwajDY1mLB98FV8"&gt;fill this anonymous form&lt;/a&gt; to help us!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Apache Friends Project Moves to GitHub</title>
     <link rel="alternate" href="https://www.apachefriends.org/blog/moves_to_github_20220610.html"/>
     <id>https://www.apachefriends.org/blog/moves_to_github_20220610.html</id>
     <published>2022-06-10T00:00:00Z</published>
-    <updated>2022-06-15T16:46:33+00:00</updated>
+    <updated>2022-10-01T08:58:40+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>

@@ -167,9 +167,9 @@
         <li>Дважды кликните по картинке чтобы запустить процесс установки.</li></ul>
       <p>Вот и всё. Теперь XAMPP установлен под каталогом /Applications/XAMPP.</p>
       </dd>
-      <dt>Does XAMPP include MySQL or MariaDB?</dt>
+      <dt>XAMPP включает в себя MySQL или MariaDB?</dt>
       <dd>
-        <p>Since XAMPP 5.5.30 and 5.6.14, XAMPP ships MariaDB instead of MySQL. The commands and tools are the same for both.</p>
+        <p>С момента выхода XAMPP 5.5.30 и 5.6.14, XAMPP предоставляет MariaDB вместо MySQL. Команды и инструменты для обоих одни и те же.</p>
       </dd>
       <dt>Как я мне запустить XAMPP?</dt>
       <dd>
@@ -179,7 +179,7 @@
       <dd>
       <p>Чтобы остановить XAMPP просто откройте XAMPP Control и остановите сервера. Имя для XAMPP Control "manager-osx".</p>      
       </dd>
-      <dt>Как я мне проверить что всё сработало?</dt>
+      <dt>Как мне проверить, что всё сработало?</dt>
       <dd>
       <p>Введите следующую URL в веб браузер:</p>
       <p><code>http://localhost</code></p>
@@ -269,14 +269,14 @@ LAMPP: Starting Apache with SSL...</code></p>
         <p>Теперь расширение должо быть активировано.</p>
       </dd>
 
-      <dt>How do I enable access to phpMyAdmin from the outside?</dt>
+      <dt>Как мне включить доступ к phpMyAdmin извне?</dt>
       <dd>
-        <p>In the basic configuration of XAMPP, phpMyAdmin is accessible only from the same host that XAMPP is running on, at http://127.0.0.1 or http://localhost.</p>
-        <p>IMPORTANT: Enabling external access for phpMyAdmin in production environments is a significant security risk. You are strongly advised to only allow access from localhost. A remote attacker could take advantage of any existing vulnerability for executing code or for modifying your data.</p>
-        <p>To enable remote access to phpMyAdmin, follow these steps:</p>
+        <p>В базовой конфигурации XAMPP phpMyAdmin доступен только с того же хоста, на котором запущен XAMPP, по адресу <a href="http://127.0.0.1">http://127.0.0.1</a> или <a href="http://localhost">http://localhost</a>.</p>
+        <p>ВАЖНО: Включение внешнего доступа для phpMyAdmin в производственных средах представляет собой значительный риск для безопасности. Вам настоятельно рекомендуется разрешать доступ только с localhost. Удаленный злоумышленник может воспользоваться любой существующей уязвимостью для выполнения кода или изменения ваших данных.</p>
+        <p>Чтобы включить удалённый доступ к phpMyAdmin, следуйте шагам ниже:</p>
         <ul>
           <li>Edit the xamppfiles/etc/extra/httpd-xampp.conf file in your XAMPP installation directory.</li>
-          <li>Within this file, find the lines below. 
+          <li>В этом файле, найдите строки, указанные снизу. 
             <p><code>
                 Alias /phpmyadmin "/Applications/XAMPP/xamppfiles/phpmyadmin"
                 &lt;Directory "/Applications/XAMPP/xamppfiles/phpmyadmin"&gt;
@@ -284,14 +284,14 @@ LAMPP: Starting Apache with SSL...</code></p>
                   Require local
             </code></p>
           </li>
-          <li>Then replace 'Require local' with 'Require all granted'.</li>
+          <li>Затем, замените 'Require local' на 'Require all granted'.</li>
             <p><code>
                 Alias /phpmyadmin "/Applications/XAMPP/xamppfiles/phpmyadmin"
                 &lt;Directory "/Applications/XAMPP/xamppfiles/phpmyadmin"&gt;
                   AllowOverride AuthConfig
                   Require all granted
             </code></p>
-          <li>Restart the Apache server using the XAMPP control panel.</li>
+          <li>Перезапустите сервер Apache, используя панель управления XAMPP.</li>
         </ul>
       </dd>
 
@@ -299,7 +299,7 @@ LAMPP: Starting Apache with SSL...</code></p>
       <dd>
         <p>The main XAMPP configuration files are located as follows:</p>
         <ul>
-          <li>Apache configuration file: /Applications/XAMPP/xamppfiles/etc/httpd.conf, /Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf</li>
+          <li>Файлы конфигурации Apache: /Applications/XAMPP/xamppfiles/etc/httpd.conf, /Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf</li>
           <li>PHP configuration file: /Applications/XAMPP/xamppfiles/etc/php.ini</li>
           <li>MySQL configuration file: /Applications/XAMPP/xamppfiles/etc/my.cnf</li>
           <li>ProFTPD configuration file: /Applications/XAMPP/xamppfiles/etc/proftpd.conf</li>
