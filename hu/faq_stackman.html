@@ -61,7 +61,6 @@
           <!-- Left Nav Section -->
           <ul class="left">
               <li class="item "><a href="/hu/download.html">Letöltés</a></li>
-              <li class="item "><a href="/hu/add-ons.html">Kiegészítők</a></li>
               <li class="item "><a href="/hu/hosting.html">tárhely szolgáltatás</a></li>
               <li class="item "><a href="/hu/community.html">Közösség</a></li>
               <li class="item "><a href="/hu/about.html">Névjegy</a></li>
@@ -395,33 +394,6 @@ LAMPP: Starting Apache with SSL...</code></p>
         </p>
         <p>This is the situation as of September 2022. We hope that the VM components will support Apple M1 CPUs in the future, so that XAMPP VMs will be usable on those Apple computers as well.
         </p>
-      </dd>
-
-      <dt>How do I install XAMPP-VM add-ons?</dt>
-      <dd id='how-do-i-install-xampp-add-ons'>
-        <p>To install a new Bitnami add-on for XAMPP-VM, follow these steps:</p>
-        <ul>
-          <li>Download the Linux installer for the add-on from the Bitnami website.</li>
-          <img src="/images/screenshots/xampp-macosx-download-installer-85c1af51.jpg" />
-          <li>Launch the stack manager by double-clicking the XAMPP icon in the mounted disk image.</li>
-          <li>Ensure that all services are running in the "Services" tab of the stack manager (or start them as needed).</li>
-          <li>Navigate to the "Network" tab and ensure that port forwarding (port 80 of the stack to port 8080 of the host system) over SSH is enabled.</li>
-          <img src="/images/screenshots/xampp-macosx-stack-manager-network-0701ac7c.jpg" />
-          <li>Mount the /opt/lampp directory from the "Volumes" tab of the stack manager and click the "Explore" button to open the file manager.</li>
-          <img src="/images/screenshots/xampp-macosx-stack-manager-volumes-4dd47fba.jpg" />
-          <li>Copy the Linux installer from the host system to the /opt/lampp/temp directory on the mounted volume.</li>
-          <li>Open a new terminal from the "General" tab of the stack manager and run the following commands in it. Replace INSTALLER_FILENAME with the name of the downloaded installer.
-            <p><code>cd /opt/lampp/temp
-            chmod +x ./INSTALLER_FILENAME.sh
-            ./INSTALLER_FILENAME.sh
-            </code></p>
-          <p>This will start the installer in text mode, as shown below:</p>
-          <img src="/images/screenshots/xampp-macosx-run-installer-b20fb669.jpg" />
-          </li>
-          <li>Enter the required details when prompted and wait for the installation to complete.</li>
-        </ul>
-        <p>You should now be able to access the add-on through your browser. For example, to access WordPress, browse to http://localhost:8080/wordpress.</p>
-        <img src="/images/screenshots/xampp-macosx-wordpress-490ede6c.jpg" />
       </dd>
 
       <dt>Where are the XAMPP-VM virtual machine files and logs?</dt>

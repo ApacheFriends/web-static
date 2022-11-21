@@ -797,66 +797,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/de/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/add-ons.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://www.apachefriends.org/blog/new_xampp_20221001.html</loc>
     <priority>0.7</priority>
   </url>
