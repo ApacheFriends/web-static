@@ -797,6 +797,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.apachefriends.org/blog/new_xampp_20231119.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.apachefriends.org/blog/new_xampp_20230408.html</loc>
     <priority>0.7</priority>
   </url>
