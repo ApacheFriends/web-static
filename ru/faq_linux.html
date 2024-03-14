@@ -148,18 +148,18 @@
     <dl class="accordion">
       <dt>Как мне установить XAMPP?</dt>
       <dd>
-        <p>Выберите ващу операционную систему и 32 или 64 битную версию.</p>
+        <p>Выберите ващу операционную систему 32 или 64 битную версию.</p>
         <p>Измените разрешения для установщика</p>
         <p><code>chmod 755 xampp-linux-*-installer.run</code></p>
         <p>Запустите установщик</p>
         <p><code>sudo ./xampp-linux-*-installer.run</code></p>
-        <p>Вот и всё. XAMPP теперь установлен под каталогом /opt/lampp.</p>
+        <p>Вот и всё. XAMPP теперь установлен в каталоге /opt/lampp.</p>
       </dd>
       <dt>XAMPP включает в себя MySQL или MariaDB?</dt>
       <dd>
       <p>С момента выхода XAMPP 5.5.30 и 5.6.14, XAMPP предоставляет MariaDB вместо MySQL. Команды и инструменты для обоих одни и те же.</p>
       </dd>
-      <dt>Как я мне запустить XAMPP?</dt>
+      <dt>Как мне запустить XAMPP?</dt>
       <dd>
         <p>Для запуска XAMPP просто выполните следующую команду:</p>
         <p><code>sudo /opt/lampp/lampp start</code></p>
@@ -169,21 +169,21 @@
           LAMPP: Starting MySQL...<br />
           LAMPP started.<br /><br />
           Ready. Apache and MySQL are running.</code></p>
-        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницы нашего сообщества</a> для помощи.</p>
+        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницу нашего сообщества</a> для помощи.</p>
         <p>Кстати, заметьте что есть графический инструмент который вы можете использовать чтобы легко управлятся с вашими серверами. Вы можете запустить этот инструмент с помощью следующих команд:</p>
         <p><code>cd /opt/lampp<br>
           sudo ./manager-linux.run (or manager-linux-x64.run)</code></p> 
       </dd>
-      <dt>Как я мне остановить XAMPP?</dt>
+      <dt>Как мне остановить XAMPP?</dt>
       <dd>
         <p>Для остановки XAMPP просто вызовите команду:</p>
         <p><code>sudo /opt/lampp/lampp stop</code></p>
-        <p>Теперь вы должны видить чтото вроде этого на вашем экране:</p>
+        <p>Теперь вы должны видить что-то вроде этого на вашем экране:</p>
         <p><code>Stopping XAMPP 1.8.2...<br />
           LAMPP: Stopping Apache...<br />
           LAMPP: Stopping MySQL...<br />
           LAMPP stopped.<br /><br /></code></p>
-        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницы нашего сообщества</a> для помощи.</p>
+        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницу нашего сообщества</a> для помощи.</p>
         <p>Кстати, заметьте что есть графический инструмент который вы можете использовать чтобы легко запустить или остановить ваши сервера. Вы можете запустить этот инструмент с помощью следующих команд:</p>
         <p><code>cd /opt/lampp<br>
           sudo ./manager-linux.run (or manager-linux-x64.run)</code></p> 
@@ -202,31 +202,31 @@
         <ol>
           <li>MySQL администратор (root) не имеет пароля.</li>
           <li>MySQL сервер доступен через сеть.</li>
-          <li>ProFTPD uses the password "lampp" for user "daemon".</li>
+          <li>ProFTPD использует пароль "lampp" для пользователя "daemon".</li>
         </ol>
         <p>Чтобы исправить большинство пробелов в безопасности просто вызовите следующую команду:</p>
         <p><code>sudo /opt/lampp/lampp security</code></p>
-        <p>Это начнёт небольшую проверку безопасности и обезопасит вашу установку XAMPP. К примеру это зашитит демонстративные страницы XAMPP комбинацией из пользовательского имени ('lampp') и пароля.</p>
+        <p>Он начнёт небольшую проверку безопасности и обезопасит вашу установку XAMPP. Например, это зашитит демонстративные страницы XAMPP сочитанием из пользовательского имени ('lampp') и пароля.</p>
       </dd>
       <dt>Что означают сообщения об ошибках которые я вижу когда запускаю XAMPP?</dt>
       <dd>
         <p>Вы можете получить несколько сообщений об ощибках когда запускаете XAMPP:</p>
         <p><code>LAMPP-Apache is already running.<br />
           An Apache daemon is already running.</code></p>
-        <p>Скрипт запуска LAMPP не смог запустить XAMPP-Apache потому что экземпляр Apache уже запущен. Чтобы запустить XAMPP правильно, сначала вам нужно остановить этот процесс.</p>
+        <p>Скрипт запуска LAMPP не смог запустить XAMPP-Apache, потому что экземпляр Apache уже запущен. Чтобы правильно запустить XAMPP, сначала вам нужно остановить этот процесс.</p>
         <p><code>LAMPP-MySQL is already running.<br />
           A MySQL daemon is already running.</code></p>
-        <p>В основном по тем же причинам что и в выше упомянутой ошибке, скрипт запуска LAMPP нащёл уже запущеный MySQL сервер на этой системе. Чтобы запустить LAMPP правильно, вам надо сначала остановить этот сервер.</p>
+        <p>В основном по тем же причинам, что и вышеописанной ошибке, скрипт запуска LAMPP нащёл уже запущеный MySQL сервер в этой системе. Чтобы правильно запустить LAMPP, вам надо сначала остановить этот процесс.</p>
       </dd>
       <dt>Apache doesn't seem to start. What can I do?</dt>
       <dd>
-        <p>Эта ошибка может иметь место по нескольким причинам. Apache показывает эту ощибку при разных условиях. Чтобы найти конкретную причину нам нужно будет немного поисследовать:</p>
+        <p>Эта ошибка может существовать по нескольким причинам. Apache показывает эту ощибку при разных условиях. Чтобы найти конкретную причину, нам нужно будет провести небольшое исследование:</p>
         <p><code>tail -2 /opt/lampp/logs/error_log</code></p>
-        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницы нашего сообщества</a> для помощи.</p>
+        <p>Если вы получили сообщение об ошибке посетите <a href="/community.html">страницу нашего сообщества</a> для помощи.</p>
       </dd>
       <dt>Что делать, если я получаю сообщение об ошибке "Cannot restore segment prot after reloc: Permission denied?"</dt>
       <dd>
-        <p>На некоторх дистртбутивах Linux, SELinux активировано по умолчанию и это предотвращает успешный запуск XAMPP. Вам следует отключить это чтобы запустить сервера XAMPP:</p>
+        <p>В некоторх дистртбутивах Linux, SELinux активирован по умолчанию, что предотвращает успешный запуск XAMPP. Вам следует отключить его чтобы запустить сервера XAMPP:</p>
         <p><code>sudo /usr/sbin/setenforce 0</code></p>
         <p>Теперь XAMPP должен снова нормально работать.</p>
       </dd>
@@ -246,10 +246,10 @@
       </dd>
       <dt>Как мне сделать более безопасной мою установку XAMPP?</dt>
       <dd>
-        <p>В установке по умолчанию, в XAMPP не установлено паролей и запускать XAMPP с такой конфигурацией доступной другим, не рекомендуется.</p>
-        <p>Просто введите следующую команду (как root) чтобы начать простую проверку безопасности:</p>
+        <p>При установки XAMPP по умолчанию, внем не установлены пароли, и не рекомендуется запускать XAMPP с такой конфигурацией, поскольку она доступна для других.</p>
+        <p>Просто введите следующую команду (от root), чтобы начать простую проверку безопасности:</p>
         <p><code>sudo /opt/lampp/lampp security</code></p>
-        <p>Теперь вы должны видить следующий диалог на вашем экране:</p>
+        <p>Теперь вы должны увидеть на экране следующее диалоговое окнон:</p>
         <p><code>
           XAMPP: Quick security check...</br>
           XAMPP: MySQL is accessable via network.</br>
@@ -277,13 +277,13 @@
           XAMPP: Reload ProFTPD...</br>
           XAMPP: Done.</br>
         </code></p>
-        <p>(1) Установка пароля защитит демонстративные страницы XAMPP (http://localhost/xampp/) использующие этот пароль. Имя пользователя 'lampp'!</p>
-        <p>После вызова этой команды ваша установка XAMPP должна быть более безопасной.</p>
+        <p>(1) Установка пароля защитит демонстрационные страницы XAMPP (http://localhost/xampp/) с помощью этого пароля. Имя пользователя 'lampp'!</p>
+        <p>После вызова этой команды ваша установка XAMPP должна стать более безопасной.</p>
       </dd>
       
       <dt>Как мне активировать eAccelerator?</dt>
       <dd>
-        <p>Чтобы активтровать eAccelerator просто найдите следующие строки в вашем /opt/lampp/etc/php.ini:</p>
+        <p>Чтобы активтровать eAccelerator просто найдите следующие строки в файле /opt/lampp/etc/php.ini:</p>
         <p><code>;extension="eaccelerator.so"</br>
           ;eaccelerator.shm_size="16"</br>
           ;eaccelerator.cache_dir="/opt/lampp/tmp/eaccelerator"</br>
@@ -298,11 +298,11 @@
           ;eaccelerator.shm_only="0"</br>
           ;eaccelerator.compress="1"</br>
           ;eaccelerator.compress_level="9"</code></p>
-        <p>Уберите точку с запятой в начале каждой строки и перезапустите XAMPP. eAccelerator теперь активирован. Для более подробной информации об eAccelerator, навестите домашнюю страницу eAccelerator: <a href="http://eaccelerator.net">http://eaccelerator.net</a>.</p>
+        <p>Уберите точку с запятой в начале каждой строки и перезапустите XAMPP. eAccelerator теперь активирован. Для более подробной информации об eAccelerator, поситите домашнюю страницу eAccelerator: <a href="http://eaccelerator.net">http://eaccelerator.net</a>.</p>
       </dd>
       <dt>Как мне активировать OCI8/Oracle расширение для PHP?</dt>
       <dd>
-        <p>Чтобы активировать OCI8/Oracle расширение для PHP пожалуйста выполните следующую команду:</p>
+        <p>Чтобы активировать расширение OCI8/Oracle для PHP, пожалуйста выполните следующую команду:</p>
         <p><code>sudo /opt/lampp/lampp oci8</code></p>
         <p>Появится следующий диалог:</p>
         <p><code>Please enter the path to your Oracle or Instant Client installation:</br>
@@ -316,20 +316,20 @@
       </dd>
       <dt>XAMPP работает, но почему картинки не отображаются?</dt>
       <dd>
-        <p>Эта проблема специфична для некоторых Linux систем. Пожалуйста откройте ваш /opt/lampp/etc/httpd.conf и найдите следующие две строки:</p>
+        <p>Эта проблема специфична для некоторых Linux систем. Пожалуйста откройте файл /opt/lampp/etc/httpd.conf и найдите следующие две строки:</p>
         <p><code>#EnableMMAP off</br>
           #EnableSendfile off</code></p>
-        <p>Уберите # на обоих строках и перезапустите Apache. Теперь ваши картинки должны отображатся.</p>
+        <p>Уберите # в обоих строках и перезапустите Apache. Теперь ваши картинки должны отображатся.</p>
       </dd>
 
       <dt>Как мне включить доступ к phpMyAdmin извне?</dt>
       <dd>
       <p>В базовой конфигурации XAMPP phpMyAdmin доступен только с того же хоста, на котором запущен XAMPP, по адресу <a href="http://127.0.0.1">http://127.0.0.1</a> или <a href="http://localhost">http://localhost</a>.</p>
       <p>ВАЖНО: Включение внешнего доступа для phpMyAdmin в производственных средах представляет собой значительный риск для безопасности. Вам настоятельно рекомендуется разрешать доступ только с localhost. Удаленный злоумышленник может воспользоваться любой существующей уязвимостью для выполнения кода или изменения ваших данных.</p>
-      <p>Чтобы включить удалённый доступ к phpMyAdmin, следуйте шагам ниже:</p>
+      <p>Чтобы включить удалённый доступ к phpMyAdmin, выполните следуйщие шаги:</p>
       <ul>
-        <li>Edit the etc/extra/httpd-xampp.conf file in your XAMPP installation directory.</li>
-        <li>В этом файле, найдите строки, указанные снизу. 
+        <li>Отредактируйте файл etc/extra/httpd-xampp.conf в установленном каталоге XAMPP.</li>
+        <li>В этом файле, найдите строки, указанную ниже. 
           <p><code>
               Alias /phpmyadmin "/opt/lampp/phpmyadmin/"
               &lt;Directory "/opt/lampp/phpmyadmin"&gt;
@@ -344,30 +344,30 @@
                 AllowOverride AuthConfig
                 Require all granted
           </code></p>
-        <li>Перезапустите сервер Apache, используя панель управления XAMPP.</li>
+        <li>Перезапустите процесс Apache, используя панель управления XAMPP.</li>
       </ul>
       </dd>
       
-      <dt>Where are the main XAMPP configuration files?</dt>
+      <dt>Где находиться основной конфигурационный файл XAMPP?</dt>
       <dd>
-        <p>The main XAMPP configuration files are located as follows:</p>
+        <p>Основные конфигурационные файлы XAMPP расположене по указанным ниже путям:</p>
         <ul>
           <li>Файлы конфигурации Apache: /opt/lampp/etc/httpd.conf, /opt/lampp/etc/extra/httpd-xampp.conf</li>
-          <li>PHP configuration file: /opt/lampp/etc/php.ini</li>
-          <li>MySQL configuration file: /opt/lampp/etc/my.cnf</li>
-          <li>ProFTPD configuration file: /opt/lampp/etc/proftpd.conf</li>
+          <li>Файл конфигурации PHP: /opt/lampp/etc/php.ini</li>
+          <li>Файл конфигурации MySQL: /opt/lampp/etc/my.cnf</li>
+          <li>Файл конфигурации ProFTPD: /opt/lampp/etc/proftpd.conf</li>
         </ul>
       </dd>
 
-      <dt>How do I send email with XAMPP?</dt>
+      <dt>Как я могу отправить электронную почту с помощью XAMPP?</dt>
       <dd>
-        <p>To send email with XAMPP, use the PEAR Mail and Net_SMTP packages, which allow you to send email using an external SMTP account (such as a Gmail account). Follow these steps:</p>
+        <p>Для оправки электронной почты с помощью XAMPP, используйте пакеты PEAR Mail и Net_SMTP, которые позволяют отправлять электронную почту с использованием внешней SMTP учетной записи (такой как учетная запись Gmail). Следуй этим шагам:</p>
         <ul>
-          <li>Install the Mail and Net_SMTP PEAR modules:
+          <li>Установите PEAR модули Mail и Net_SMTP:
           <code>
           pear install Net_SMTP Mail
           </code>
-          Note that if these packages are already installed in your system you see the messages below when executing that command:
+          Обратите внимание, что если эти пакеты уже установлены в вашей системе, вы увидите сообщение ниже при выполнении этой команды:
           <code>
           Ignoring installed package pear/Net_SMTP
           Ignoring installed package pear/Mail
@@ -375,7 +375,7 @@
           </code>
           </li>
           <li>
-          Create the following example script in your "htdocs" directory to send an email:
+          Создайте сделующий пример сценария в каталоге "htdocs", для оправки электронной почты:
           <code>
           &lt;?php
           require_once "Mail.php";
@@ -408,22 +408,22 @@
           }
           ?>
           </code>
-          <p>Remember to replace the dummy values shown with your actual Gmail address and account password. If you don't plan to use Gmail's SMTP server, replace the SMTP host details with appropriate values for your organization or ISP's SMTP server.</p>
+          <p>Не забудьте заменить показанные фиктивные значение, вашим фактическим адресом Gmail и паролем учетной записи. Если вы не планируете использовать SMTP сервер Gmail, замените данные SMTP хоста соответствующими значениями SMTP сервера вашей организации или интернет провайдера.</p>
           </li>
           <li>
-          Execute the script by browsing to it using your Web browser. You should see a notification that the message was successfully sent, and the message should be delivered to the recipient email address.
+          Выполните скрипт, перейдя в к нему с помощью вашего веб-браузера. Вы должны увидеть уведомление о том, что сообщение было успешно отправленно и сообщеним должно быть успешно доставленно на адрес электнонной почты получателя.
           </li>
         </ul>
       </dd>
       
       <dt>Как мне сделать резервное копирование или востановить мою XAMPP систему?</dt>
       <dd>
-        <p><strong>Предупреждение:</strong> Функции резервного копирования и востановления ещё разрабатываются и могут работать неправильно.</p>
+        <p><strong>Предупреждение:</strong> Функции резервного копирования и востановления ещё в разработке и может работать неправильно.</p>
         <p>Вы можете создать резервное копирование с помощью:</p>
         <p><code>sudo /opt/lampp/lampp backup</code></p>
         <p>или</p>
         <p><code>sudo /opt/lampp/lampp backup secret</code></p>
-        <p>Где "secret" это ваш MySQL root пароль. Эта команда выведет следующее:</p>
+        <p>Где "secret" это ваш root пароль от MySQL. Эта команда выведет следующее:</p>
         <p><code>Backing up databases...</br>
           Backing up configuration, log and htdocs files...</br>
           Calculating checksums...</br>
@@ -445,7 +445,7 @@
           Backup complete. Have fun!</br>
           You may need to restart XAMPP to complete the restore.</br>
         </code></p>
-        <p>Вот и всё. Помните это ещё не зрелая (beta) функция.</p>
+        <p>Вот и всё. Имейте в виду, это ещё (beta) функция.</p>
       </dd>
     </dl>
   </div>
@@ -458,7 +458,7 @@
           <li><a href="/ru/faq_osx.html">OS X ЧаВО</a></li>
         </ul>
         <h4>Поддержка</h4>
-        <p>Посетите наш <a href="/ru/community.html">страницы нашего сообщества</a> для дополнительной помощи.</p>
+        <p>Посетите <a href="/ru/community.html">страницу нашего сообщества</a> для дополнительной помощи.</p>
       </aside>
     </div>
 </div>
@@ -480,7 +480,7 @@
             <li><a href="https://www.apachefriends.org/blog.html">Блог</a></li>
             <li><a href="/privacy_policy.html">Политика приватности</a></li>
             <li>
-<a target="_blank" href="http://www.fastly.com/">                CDN предусмотрено
+<a target="_blank" href="http://www.fastly.com/">                CDN предоставлен
                 <img width="48" data-2x="/images/fastly-logo@2x-dad6aac3.png" src="/images/fastly-logo-08360cb5.png" />
 </a>            </li>
           </ul>
