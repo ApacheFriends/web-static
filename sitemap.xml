@@ -9,431 +9,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/docs/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://www.apachefriends.org/privacy_policy.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/de/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/de/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/faq_linux.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/de/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/faq_osx.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/de/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/newsletter-error.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/de/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/hosting.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/de/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/download_success.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/de/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/es/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/fr/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/hu/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/it/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/jp/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pl/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/pt_br/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ro/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ru/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/tr/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/ur/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_cn/faq_windows.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.apachefriends.org/zh_tw/faq_windows.html</loc>
+    <loc>https://www.apachefriends.org/docs/index.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -497,183 +77,243 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/de/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/de/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/es/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/es/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/fr/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/fr/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/hu/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/hu/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/it/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/it/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/jp/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/jp/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pl/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/pl/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pt_br/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/pt_br/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ro/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/ro/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ru/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/ru/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/tr/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/tr/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ur/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/ur/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_cn/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/zh_cn/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_tw/faq_stackman.html</loc>
+    <loc>https://www.apachefriends.org/zh_tw/hosting.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/de/download.html</loc>
+    <loc>https://www.apachefriends.org/de/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/download.html</loc>
+    <loc>https://www.apachefriends.org/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/es/download.html</loc>
+    <loc>https://www.apachefriends.org/es/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/fr/download.html</loc>
+    <loc>https://www.apachefriends.org/fr/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/hu/download.html</loc>
+    <loc>https://www.apachefriends.org/hu/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/it/download.html</loc>
+    <loc>https://www.apachefriends.org/it/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/jp/download.html</loc>
+    <loc>https://www.apachefriends.org/jp/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pl/download.html</loc>
+    <loc>https://www.apachefriends.org/pl/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pt_br/download.html</loc>
+    <loc>https://www.apachefriends.org/pt_br/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ro/download.html</loc>
+    <loc>https://www.apachefriends.org/ro/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ru/download.html</loc>
+    <loc>https://www.apachefriends.org/ru/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/tr/download.html</loc>
+    <loc>https://www.apachefriends.org/tr/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ur/download.html</loc>
+    <loc>https://www.apachefriends.org/ur/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_cn/download.html</loc>
+    <loc>https://www.apachefriends.org/zh_cn/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_tw/download.html</loc>
+    <loc>https://www.apachefriends.org/zh_tw/newsletter-error.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/de/community.html</loc>
+    <loc>https://www.apachefriends.org/de/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/community.html</loc>
+    <loc>https://www.apachefriends.org/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/es/community.html</loc>
+    <loc>https://www.apachefriends.org/es/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/fr/community.html</loc>
+    <loc>https://www.apachefriends.org/fr/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/hu/community.html</loc>
+    <loc>https://www.apachefriends.org/hu/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/it/community.html</loc>
+    <loc>https://www.apachefriends.org/it/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/jp/community.html</loc>
+    <loc>https://www.apachefriends.org/jp/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pl/community.html</loc>
+    <loc>https://www.apachefriends.org/pl/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pt_br/community.html</loc>
+    <loc>https://www.apachefriends.org/pt_br/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ro/community.html</loc>
+    <loc>https://www.apachefriends.org/ro/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ru/community.html</loc>
+    <loc>https://www.apachefriends.org/ru/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/tr/community.html</loc>
+    <loc>https://www.apachefriends.org/tr/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ur/community.html</loc>
+    <loc>https://www.apachefriends.org/ur/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_cn/community.html</loc>
+    <loc>https://www.apachefriends.org/zh_cn/download_success.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_tw/community.html</loc>
+    <loc>https://www.apachefriends.org/zh_tw/download_success.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/about.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -737,63 +377,423 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/de/about.html</loc>
+    <loc>https://www.apachefriends.org/de/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/about.html</loc>
+    <loc>https://www.apachefriends.org/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/es/about.html</loc>
+    <loc>https://www.apachefriends.org/es/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/fr/about.html</loc>
+    <loc>https://www.apachefriends.org/fr/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/hu/about.html</loc>
+    <loc>https://www.apachefriends.org/hu/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/it/about.html</loc>
+    <loc>https://www.apachefriends.org/it/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/jp/about.html</loc>
+    <loc>https://www.apachefriends.org/jp/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pl/about.html</loc>
+    <loc>https://www.apachefriends.org/pl/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/pt_br/about.html</loc>
+    <loc>https://www.apachefriends.org/pt_br/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ro/about.html</loc>
+    <loc>https://www.apachefriends.org/ro/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ru/about.html</loc>
+    <loc>https://www.apachefriends.org/ru/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/tr/about.html</loc>
+    <loc>https://www.apachefriends.org/tr/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/ur/about.html</loc>
+    <loc>https://www.apachefriends.org/ur/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_cn/about.html</loc>
+    <loc>https://www.apachefriends.org/zh_cn/faq_osx.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.apachefriends.org/zh_tw/about.html</loc>
+    <loc>https://www.apachefriends.org/zh_tw/faq_osx.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/community.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/faq_windows.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/faq_linux.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/download.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/de/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/es/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/fr/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/hu/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/it/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/jp/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pl/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/pt_br/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ro/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ru/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/tr/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/ur/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_cn/faq_stackman.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apachefriends.org/zh_tw/faq_stackman.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
